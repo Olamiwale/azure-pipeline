@@ -27,6 +27,7 @@ jobs:
     
     - name: Run Tests
       run: npm test
+      working-directory: ./app
 
     
     - name: Azure Login
@@ -36,7 +37,11 @@ jobs:
 
    
     - name: Build Docker Image
-      run: docker build -t briitzApp:latest .
+      run: docker build -t briitzApp:latest ./app
+
+    - name: ACR Login
+      run: az acr login --name briitznewacr
+    
 
    
     - name: Push to ACR
