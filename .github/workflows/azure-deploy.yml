@@ -46,8 +46,8 @@ jobs:
    
     - name: Push to ACR
       run: |
-        docker tag briitzApp:latest briitznewacr.azurecr.io/briitzApp:latest
-        docker push briitznewacr.azurecr.io/briitzApp:latest
+        docker tag briitzapp:latest briitznewacr.azurecr.io/briitzapp:latest
+        docker push briitznewacr.azurecr.io/briitzapp:latest
 
     
     - name: Deploy to Azure App Service
