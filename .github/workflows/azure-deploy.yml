@@ -37,7 +37,7 @@ jobs:
 
    
     - name: Build Docker Image
-      run: docker build -t briitzApp:latest ./app
+      run: docker build -t briitzapp:latest ./app
 
     - name: ACR Login
       run: az acr login --name briitznewacr
