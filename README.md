@@ -1,4 +1,4 @@
-# This is a CI/CD pipeline that deploys Node.js application to Azure App Service Using Github action
+## This is a CI/CD pipeline that deploys Node.js application to Azure App Service Using Github action
 
 
 # Step 1: Prepare the local environment, making sure that the .github/workflow/deploy.yml path is in the root folder
