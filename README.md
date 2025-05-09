@@ -52,6 +52,8 @@
 
 #### Step 4: Create GitHub workflows (deploy.yml)
 
+  Check the code of this repository for a detail workflow
+ 
 
 
 #### Step 4: Set Up GitHub Secrets
