@@ -5,10 +5,10 @@ Step 1: Prepare the local environment, making sure that the .github/workflow/dep
 
 /root-folder
 |──── app               
-|      |─── server.js
-|      |─── package.json
-|      |─── Dockerfile
-|
+      |─── server.js
+      |─── package.json
+      |─── Dockerfile
+
 |───── .github           
 |         |── workflows     
 |               |── deploy.yml
