@@ -61,8 +61,9 @@
     az ad sp create-for-rbac --name "myGithubAction" --sdk-auth
 
 
-   Your response should look like this 
-        ‘{
+   The response should look like this 
+   
+      ‘{
           "clientId": "6c535cb7-e39506-kgkff-56gg82d7",
           "clientSecret": "TyY8QkkfngnskgfNjyK-ma0K",
           "subscriptionId": "8acg gkfnkkdkkdkgdg09d2f",
@@ -73,7 +74,7 @@
           "sqlManagementEndpointUrl": "https://management.core.windows.net:8443/",
           "galleryEndpointUrl": "https://gallery.azure.com/",
           "managementEndpointUrl": "https://management.core.windows.net/"
-         } ’
+      } ’
 
    In the GitHub repository click on settings 
    -> Navigate to the left bar 
