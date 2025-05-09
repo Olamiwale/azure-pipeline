@@ -1,7 +1,7 @@
-#This is a CI/CD pipeline that deploys Node.js application to Azure App Service Using Github action
+# This is a CI/CD pipeline that deploys Node.js application to Azure App Service Using Github action
 
 
-Step 1: Prepare the local environment, making sure that the .github/workflow/deploy.yml path is in the root folder
+# Step 1: Prepare the local environment, making sure that the .github/workflow/deploy.yml path is in the root folder
 
 /root-folder
 
@@ -19,18 +19,19 @@ Step 1: Prepare the local environment, making sure that the .github/workflow/dep
 
 
 
-Step 2: Prepare Azure Environment
+# Step 2: Prepare Azure Environment
 
-Create a resource group
+   Create a resource group
 
      az group create --name <ResourceGroupName> --location eastus
 
-# Create app service
+   Create app service
 
      az appservice plan create --name <AppServicePlan> --resource-group  
                <ResourceGroup> --sku B1 --location <Region>
 
-# Create a web app on (app service)
+   Create a web app on (app service)
+
                az webapp create --resource-group <ResourceGroupName> --plan <AppServicePlan>   
                --name myApp --runtime "NODE:18-lts"
 
