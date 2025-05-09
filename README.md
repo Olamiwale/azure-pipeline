@@ -4,15 +4,17 @@
 Step 1: Prepare the local environment, making sure that the .github/workflow/deploy.yml path is in the root folder
 
 /root-folder
-|──── app               
+
+|──── app   
+
       |─── server.js
       |─── package.json
       |─── Dockerfile
 
-|───── .github           
-|         |── workflows     
-|               |── deploy.yml
-|
+|───── .github   
+          |── workflows     
+               |── deploy.yml
+
 |──── README.md
 
 
